@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"./dotjson"
+	"./libdotjson"
 )
 
 func main() {
