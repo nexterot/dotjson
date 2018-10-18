@@ -5,6 +5,13 @@ Dotjson package provides DotFormat function for formatting json objects with "do
 git clone https://github.com/nexterot/dotjson
 cd dotjson
 go build
+```
+Linux:
+```
+./dotjson -i input.json -o output.json
+```
+Windows:
+```
 dotjson -i input.json -o output.json
 ```
 # Example

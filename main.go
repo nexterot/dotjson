@@ -24,7 +24,7 @@ func main() {
 		fmt.Println(formatErr)
 		os.Exit(1)
 	}
-	fileErr = ioutil.WriteFile(*outFilenamePtr, []byte(result), 0666)
+	fileErr = ioutil.WriteFile(*outFilenamePtr, []byte(result+"\n"), 0666)
 	if fileErr != nil {
 		fmt.Println(fileErr)
 		os.Exit(1)
